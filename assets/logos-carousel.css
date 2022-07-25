@@ -1,0 +1,35 @@
+body, html{
+    overflow-x: hidden;
+}
+.logo-slider img{
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+#logos-carousel{
+  margin:50px auto;
+  max-width: 2000px;
+  
+}
+.slick-prev:before,
+.slick-next:before {
+   display:none;
+}
+#logos-carousel h1{
+    text-align: center;
+    position: relative;
+}
+.logo-slider .item{
+    align-items: center;
+}
+
+.logo-slider .slick-slide{
+    margin: 15px;
+
+}
+.slick-dots li.slick-active button:before{
+    color: #ff5722;
+}
+.slick-dots li button:before{
+    font-size: 12px;
+}

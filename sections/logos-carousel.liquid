@@ -1,0 +1,24 @@
+<section id="logos-carousel">
+<h1>Official Distributor</h1>
+{{ 'logos-carousel.css' | asset_url | stylesheet_tag }}
+    <div class="logo-slider">
+		<div class="item"><img src="https://cdn.shopify.com/s/files/1/0596/0387/8027/files/apple-logo.png?v=1658723589" alt= "applo logo"></div>
+		<div class="item"><img src="https://cdn.shopify.com/s/files/1/0596/0387/8027/files/xiaomi-logo.png?v=1658723588" alt= "xiaomi logo"></div>
+		<div class="item"><img src="https://cdn.shopify.com/s/files/1/0596/0387/8027/files/playstation.png?v=1658723589" alt= "playstation logo"></div>
+		<div class="item"><img src="https://cdn.shopify.com/s/files/1/0596/0387/8027/files/canon-inc.png?v=1658723797" alt= "canon logo"></div>
+		<div class="item"><img src="https://cdn.shopify.com/s/files/1/0596/0387/8027/files/samsung.png?v=1658723588" alt= "samsung logo"></div>
+	</div>
+ {{ 'logos-carousel.js' | asset_url | script_tag }}
+</section>
+ {% schema %}
+  {
+    "name": "logos-carousel",
+    "settings": [],
+    "presets":[
+    {
+"name": "logos-carousel",
+"category": "ADVANCED LAYOUT"
+}
+    ]
+  }
+{% endschema %}
